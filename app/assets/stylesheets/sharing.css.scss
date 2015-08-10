@@ -1,0 +1,86 @@
+@import "_variables-mixins.css.scss";
+
+@media (max-width: ($site-width + 69)) {
+	.sharing {
+		display: none;
+	}
+
+}
+
+.sharing {
+	position: fixed;
+	top: 150px;
+	right: 0px;
+	width: 58px;
+	height: 136px;
+	background: url(/assets/sharing/sharing.png) -68px 0px no-repeat;
+	text-align: center;
+	padding-top: 48px;
+
+	.facebook, .twitter {
+		margin-left: -2px;
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		margin-bottom: 6px;
+	}
+
+	.facebook {
+		background: url(/assets/sharing/sharing.png) -120px -145px no-repeat;
+	}
+
+	.twitter {
+		background: url(/assets/sharing/sharing.png) 0px -184px no-repeat;
+	}
+
+	.facebook:hover {
+		background: url(/assets/sharing/sharing.png) -80px -145px no-repeat;
+	}
+
+	.twitter:hover {
+		background: url(/assets/sharing/sharing.png) -204px -117px no-repeat;
+	}
+
+}
+
+.apps.apps-show-willitfit .sharing {
+	background: url(/assets/sharing/sharing.png) 0px 0px no-repeat;
+
+	.facebook {
+		background: url(/assets/sharing/sharing.png) -40px -145px no-repeat;
+	}
+
+	.twitter {
+		background: url(/assets/sharing/sharing.png) -204px -78px no-repeat;
+	}
+
+	.facebook:hover {
+		background: url(/assets/sharing/sharing.png) 0px -145px no-repeat;
+	}
+
+	.twitter:hover {
+		background: url(/assets/sharing/sharing.png) -204px -39px no-repeat;
+	}
+
+}
+
+.apps.apps-show-gettogether .sharing {
+	background: url(/assets/sharing/sharing.png) -136px 0px no-repeat;
+
+	.facebook {
+		background: url(/assets/sharing/sharing.png) -204px 0px no-repeat;
+	}
+
+	.twitter {
+		background: url(/assets/sharing/sharing.png) -80px -184px no-repeat;
+	}
+
+	.facebook:hover {
+		background: url(/assets/sharing/sharing.png) -160px -145px no-repeat;
+	}
+
+	.twitter:hover {
+		background: url(/assets/sharing/sharing.png) -40px -184px no-repeat;
+	}
+
+}
